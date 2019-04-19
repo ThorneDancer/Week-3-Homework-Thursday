@@ -1,0 +1,25 @@
+/* ================================
+        Heroes
+================================ */
+#hero-1{
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: white;
+  grid-template-areas:
+  ". title ."
+  ". image ."
+  ". nav .";
+
+
+  >h1{
+    grid-area: title;
+    }
+
+  >img{
+    grid-area: image;
+  }
+
+  >div{
+    grid-area: nav;
+  }
+}

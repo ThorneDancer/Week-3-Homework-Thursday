@@ -345,3 +345,17 @@ header {
 /* ================================
         Footer css
 ================================ */
+/* ================================
+        Heroes
+================================ */
+#hero-1 {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: white;
+  grid-template-areas: ". title ." ". image ." ". nav ."; }
+  #hero-1 > h1 {
+    grid-area: title; }
+  #hero-1 > img {
+    grid-area: image; }
+  #hero-1 > div {
+    grid-area: nav; }
