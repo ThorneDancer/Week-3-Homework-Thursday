@@ -334,6 +334,14 @@ template {
 /* ================================
         Header css
 ================================ */
+header {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: white;
+  grid-template-areas: ". header ."; }
+  header > div {
+    grid-area: header; }
+
 /* ================================
         Footer css
 ================================ */
