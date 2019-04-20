@@ -396,3 +396,37 @@ header {
     grid-area: branding; }
   #assets > #custom {
     grid-area: custom; }
+
+/* ================================
+        About Us
+================================ */
+#about {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: white;
+  grid-template-areas: ". title ." ". ellen ." ". fred ."; }
+  #about #view {
+    grid-area: title; }
+  #about #ellen {
+    background-color: gray;
+    grid-area: ellen; }
+  #about #fred {
+    background-color: gray;
+    grid-area: fred; }
+
+/* ================================
+        Pricing
+================================ */
+#price {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: gray;
+  grid-template-areas: ". title ." ". value ." ". benefits ."; }
+  #price > #cost {
+    grid-area: title; }
+  #price > #total {
+    background-color: blue;
+    grid-area: value; }
+  #price > ul {
+    background-color: white;
+    grid-area: benefits; }
