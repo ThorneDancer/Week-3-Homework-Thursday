@@ -1,7 +1,7 @@
 /* ================================
         About Us
 ================================ */
-#about{
+#about {
   display: grid;
   grid-template-columns: 10px auto 10px;
   background-color: white;
@@ -10,16 +10,16 @@
   ". ellen ."
   ". fred .";
 
-  #view{
+  #view {
     grid-area: title;
   }
 
-  #ellen{
+  #ellen {
     background-color: gray;
     grid-area: ellen;
   }
 
-  #fred{
+  #fred {
     background-color: gray;
     grid-area: fred;
   }

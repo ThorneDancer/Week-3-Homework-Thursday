@@ -1,7 +1,7 @@
 /* ================================
         Pricing
 ================================ */
-#price{
+#price {
   display: grid;
   grid-template-columns: 10px auto 10px;
   background-color: gray;
@@ -10,16 +10,16 @@
   ". value ."
   ". benefits .";
 
-  >#cost{
+  > #cost {
     grid-area: title;
   }
 
-  >#total{
+  > #total {
     background-color: blue;
     grid-area: value;
   }
 
-  >ul{
+  > ul {
     background-color: white;
     grid-area: benefits;
   }

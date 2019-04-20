@@ -1,13 +1,13 @@
 /* ================================
         Header css
 ================================ */
-header{
+header {
   display: grid;
   grid-template-columns: 10px auto 10px;
   background-color: white;
   grid-template-areas: ". header .";
 
-  >div{
+  > div {
     grid-area: header;
   }
 }
