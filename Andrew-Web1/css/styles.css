@@ -345,6 +345,20 @@ header {
 /* ================================
         Footer css
 ================================ */
+footer {
+  display: grid;
+  grid-template-columns: 10px auto auto auto 10px;
+  background-color: white;
+  grid-template-areas: ". cruquius netherlands email ." " . tag tag tag ."; }
+  footer > #cruquius {
+    grid-area: cruquius; }
+  footer > #netherlands {
+    grid-area: netherlands; }
+  footer > #email {
+    grid-area: email; }
+  footer > #tag {
+    grid-area: tag; }
+
 /* ================================
         Heroes
 ================================ */
@@ -430,3 +444,17 @@ header {
   #price > ul {
     background-color: white;
     grid-area: benefits; }
+
+/* ================================
+        Order Now
+================================ */
+#order {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: blue;
+  grid-template-areas: ". header ." ". nav ."; }
+  #order > div {
+    grid-area: header; }
+  #order > a {
+    background-color: white;
+    grid-area: nav; }
