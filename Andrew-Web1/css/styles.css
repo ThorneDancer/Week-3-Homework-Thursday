@@ -360,6 +360,20 @@ header {
   #hero-1 > div {
     grid-area: nav; }
 
+#hero-2 {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: white;
+  grid-template-areas: ". title ." ". sub ." ". image ." ". text ."; }
+  #hero-2 > h1 {
+    grid-area: title; }
+  #hero-2 > p {
+    grid-area: sub; }
+  #hero-2 > img {
+    grid-area: image; }
+  #hero-2 > div {
+    grid-area: text; }
+
 /* ================================
         Assets
 ================================ */

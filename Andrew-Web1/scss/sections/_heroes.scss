@@ -23,3 +23,30 @@
     grid-area: nav;
   }
 }
+
+#hero-2{
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: white;
+  grid-template-areas:
+  ". title ."
+  ". sub ."
+  ". image ."
+  ". text .";
+
+  >h1{
+    grid-area: title;
+  }
+
+  >p{
+    grid-area: sub;
+  }
+
+  >img{
+    grid-area: image;
+  }
+
+  >div{
+    grid-area: text;
+  }
+}
